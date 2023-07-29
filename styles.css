@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header .container, footer .container{
+    background-color: #887c7cec;
+    color: #ffff;
+    
+}
+header .container{
+    display:flex;
+    align-items: center;
+}
+.container nav ul li{
+    display:inline;
+    margin-left: 8px;
+    justify-content: space-around;
+    padding-right: 6px;
+    border-right: 1px solid #ffff ;
+    font-size: 18px;
+    
+}
+nav ul li a{
+    color:#ffff;
+    text-decoration: none;
+}
+h1, h2{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 300;
+
+    
+}
+.center h2{
+    justify-content: center;
+    text-align: center;
+    
+}
+h3, p{
+    font-family: 'Nanum Myeongjo', serif;
+    margin-top: 20px;
+    font-weight: 250;
+    padding: 10px;
+    
+
+}
+img{
+    width: 450px;
+    padding: 10px;
+    margin: 15px 10px;
+}
+section #media img{
+    width: 80px;
+}
+#media{
+    display: flex;
+}
+section #media div a img{
+    list-style: none;
+}
+nav ul li:hover{
+    background-color: goldenrod;
+}
+input, textarea{
+    background-color: rgb(237, 237, 205);
+}
+form textarea{
+    resize: none;
+    height:50px;
+}
+input:focus, textarea:focus{
+    outline-color:rgba(118, 44, 44, 0.659) ;
+}
+form button{
+    cursor: pointed;
+    background-color: #887c7cec;
+    color: #ffff;
+    border: 2px solid #5e5959fb;
+    border-radius: 10px;
+}
+#marimba{
+    background-color:rgba(118, 44, 44, 0.659) ;
+}
+#drums{
+    background-color:rgba(54, 54, 125, 0.753) ;
+}
+#choir{
+    background-color: rgba(43, 141, 43, 0.548);
+}
+#orquestra{
+    background-color:rgba(207, 207, 64, 0.552) ;
+}
+#about{
+    background-color:rgba(122, 111, 111, 0.613) ;
+}
+#form{
+    background-color: beige;
+}

@@ -64,13 +64,15 @@ nav ul li:hover{
 }
 input, textarea{
     background-color: rgb(237, 237, 205);
+    max-width: 40vw;
 }
 form textarea{
     resize: none;
     height:50px;
 }
 input:focus, textarea:focus{
-    outline-color:rgba(118, 44, 44, 0.659) ;
+    outline-color:rgba(118, 44, 44, 0.659);
+    padding: 4px;
 }
 form button{
     cursor: pointed;
@@ -78,6 +80,7 @@ form button{
     color: #ffff;
     border: 2px solid #5e5959fb;
     border-radius: 10px;
+    max-width: 40vw;
 }
 #marimba{
     background-color:rgba(118, 44, 44, 0.659) ;
